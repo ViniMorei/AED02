@@ -1,9 +1,14 @@
 # depslib dependency file v1.0
-1680817593 source:c:\users\vinic\documents\aed02\lista01\main.c
+1680824916 source:c:\users\vinic\documents\aed02\lista01\main.c
 	<stdio.h>
 	<stdlib.h>
+	<stdbool.h>
 	"questao01.h"
 	"questao02.h"
+	"questao03.h"
+	"questao04.h"
+	"questao05.h"
+	"questao06.h"
 
 1680816561 source:c:\users\vinic\documents\aed02\lista01\questao01.c
 	<stdio.h>
@@ -12,10 +17,38 @@
 
 1680816561 c:\users\vinic\documents\aed02\lista01\questao01.h
 
-1680817508 source:c:\users\vinic\documents\aed02\lista01\questao02.c
+1680820077 source:c:\users\vinic\documents\aed02\lista01\questao02.c
 	<stdio.h>
 	<stdlib.h>
 	"questao02.h"
 
 1680817508 c:\users\vinic\documents\aed02\lista01\questao02.h
+
+1680819321 c:\users\vinic\documents\aed02\lista01\questao03.h
+
+1680820740 c:\users\vinic\documents\aed02\lista01\questao04.h
+
+1680820079 source:c:\users\vinic\documents\aed02\lista01\questao03.c
+	<stdio.h>
+	<stdlib.h>
+	"questao03.h"
+
+1680821250 source:c:\users\vinic\documents\aed02\lista01\questao04.c
+	<stdio.h>
+	<stdlib.h>
+	"questao04.h"
+
+1680822852 source:c:\users\vinic\documents\aed02\lista01\questao05.c
+	<stdio.h>
+	<stdlib.h>
+	"questao05.h"
+
+1680822333 c:\users\vinic\documents\aed02\lista01\questao05.h
+
+1680823503 c:\users\vinic\documents\aed02\lista01\questao06.h
+
+1680823569 source:c:\users\vinic\documents\aed02\lista01\questao06.c
+	<stdio.h>
+	<stdlib.h>
+	"questao06.h"
 
