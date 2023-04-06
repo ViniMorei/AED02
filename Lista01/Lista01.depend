@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1680817593 source:c:\users\vinic\documents\aed02\lista01\main.c
+	<stdio.h>
+	<stdlib.h>
+	"questao01.h"
+	"questao02.h"
+
+1680816561 source:c:\users\vinic\documents\aed02\lista01\questao01.c
+	<stdio.h>
+	<stdlib.h>
+	"questao01.h"
+
+1680816561 c:\users\vinic\documents\aed02\lista01\questao01.h
+
+1680817508 source:c:\users\vinic\documents\aed02\lista01\questao02.c
+	<stdio.h>
+	<stdlib.h>
+	"questao02.h"
+
+1680817508 c:\users\vinic\documents\aed02\lista01\questao02.h
+
