@@ -1,14 +1,30 @@
 # depslib dependency file v1.0
-1680824916 source:c:\users\vinic\documents\aed02\lista01\main.c
+1681169453 source:c:\users\vinic\documents\aed02\lista01\main.c
 	<stdio.h>
 	<stdlib.h>
-	<stdbool.h>
 	"questao01.h"
 	"questao02.h"
 	"questao03.h"
 	"questao04.h"
 	"questao05.h"
 	"questao06.h"
+	"questao07.h"
+	"questao08.h"
+	"questao09.h"
+	"questao10.h"
+	"questao11.h"
+	"questao12.h"
+	"questao13.h"
+	"questao14.h"
+	"questao16.h"
+	"questao17.h"
+	"questao18.h"
+	"questao19.h"
+	"questao20.h"
+	"questao21.h"
+	"questao22.h"
+	"questao23.h"
+	"questao24.h"
 
 1680816561 source:c:\users\vinic\documents\aed02\lista01\questao01.c
 	<stdio.h>
@@ -51,4 +67,61 @@
 	<stdio.h>
 	<stdlib.h>
 	"questao06.h"
+
+1681161786 source:c:\users\vinic\documents\aed02\lista01\questao07.c
+	<stdio.h>
+	<stdlib.h>
+	"questao07.h"
+
+1681161786 c:\users\vinic\documents\aed02\lista01\questao07.h
+
+1681161941 c:\users\vinic\documents\aed02\lista01\questao08.h
+
+1681161983 source:c:\users\vinic\documents\aed02\lista01\questao08.c
+	<stdio.h>
+	<stdlib.h>
+	"questao08.h"
+
+1681162501 c:\users\vinic\documents\aed02\lista01\questao09.h
+
+1681163539 source:c:\users\vinic\documents\aed02\lista01\questao09.c
+	<stdio.h>
+	<stdlib.h>
+	"questao09.h"
+
+1681166350 source:c:\users\vinic\documents\aed02\lista01\questao10.c
+	<stdio.h>
+	<stdlib.h>
+	"questao10.h"
+
+1681163539 c:\users\vinic\documents\aed02\lista01\questao10.h
+
+1681167258 source:c:\users\vinic\documents\aed02\lista01\questao11.c
+	<stdio.h>
+	<stdlib.h>
+	"questao11.h"
+
+1681166781 c:\users\vinic\documents\aed02\lista01\questao11.h
+
+1681168380 source:c:\users\vinic\documents\aed02\lista01\questao12.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"questao12.h"
+
+1681166782 c:\users\vinic\documents\aed02\lista01\questao12.h
+
+1681169422 c:\users\vinic\documents\aed02\lista01\questao13.h
+
+1681169450 c:\users\vinic\documents\aed02\lista01\questao14.h
+
+1681170075 source:c:\users\vinic\documents\aed02\lista01\questao13.c
+	<stdio.h>
+	<stdlib.h>
+	"questao13.h"
+
+1681170418 source:c:\users\vinic\documents\aed02\lista01\questao14.c
+	<stdio.h>
+	<stdlib.h>
+	"questao14.h"
 

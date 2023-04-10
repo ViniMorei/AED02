@@ -46,6 +46,18 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="questao03.h" />
+		<Unit filename="questao04.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="questao04.h" />
+		<Unit filename="questao05.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="questao05.h" />
+		<Unit filename="questao06.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="questao06.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
