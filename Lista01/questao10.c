@@ -35,4 +35,3 @@ void questao10(void){
         printf("Senha incorreta");
     }
 }
-

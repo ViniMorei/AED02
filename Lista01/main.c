@@ -14,13 +14,13 @@
 #include "questao12.h"
 #include "questao13.h"
 #include "questao14.h"
-/*#include "questao15.h"
+#include "questao15.h"
 #include "questao16.h"
 #include "questao17.h"
 #include "questao18.h"
 #include "questao19.h"
 #include "questao20.h"
-#include "questao21.h"
+/*#include "questao21.h"
 #include "questao22.h"
 #include "questao23.h"
 #include "questao24.h"*/
@@ -74,7 +74,7 @@ int main()
     case 14:
         questao14();
         break;
-    /*case 15:
+    case 15:
         questao15();
         break;
     case 16:
@@ -92,7 +92,7 @@ int main()
     case 20:
         questao20();
         break;
-    case 21:
+    /*case 21:
         questao21();
         break;
     case 22:
