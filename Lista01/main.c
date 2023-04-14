@@ -20,10 +20,10 @@
 #include "questao18.h"
 #include "questao19.h"
 #include "questao20.h"
-/*#include "questao21.h"
+#include "questao21.h"
 #include "questao22.h"
 #include "questao23.h"
-#include "questao24.h"*/
+#include "questao24.h"
 
 int main()
 {
@@ -92,7 +92,7 @@ int main()
     case 20:
         questao20();
         break;
-    /*case 21:
+    case 21:
         questao21();
         break;
     case 22:
@@ -103,7 +103,7 @@ int main()
         break;
     case 24:
         questao24();
-        break;*/
+        break;
     default:
         break;
     }
