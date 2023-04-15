@@ -17,9 +17,9 @@ void processamento13(int *numero,int *divisivel){
 
 void saida13(int numero, int divisivel){
     if (divisivel == 1){
-        printf("O numero %d e divisivel por 5!",numero);
+        printf("O numero %d e divisivel por 5!\n",numero);
     }else{
-        printf("O numero %d nao e divisivel por 5!",numero);
+        printf("O numero %d nao e divisivel por 5!\n",numero);
     }
 }
 
@@ -35,4 +35,5 @@ void questao13(void){
 
     //Saída dos dados
     saida13(num,div);
+    system("pause");
 }

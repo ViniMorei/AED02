@@ -15,8 +15,9 @@ void questao10(void){
     }
     //printf("%d",correta);
     if (correta==10){
-        printf("Senha correta");
+        printf("Senha correta\n");
     }else{
-        printf("Senha incorreta");
+        printf("Senha incorreta\n");
     }
+    system("pause");
 }

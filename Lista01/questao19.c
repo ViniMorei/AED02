@@ -24,11 +24,11 @@ void processamento19(float *lado1,float *lado2,float *lado3,int *tipo){
 
 void saida19(int tipo){
     if (tipo == 1){
-        printf("O triangulo e equilatero! (Todos os lados iguais)");
+        printf("O triangulo e equilatero! (Todos os lados iguais)\n");
     }else if(tipo == 2){
-        printf("O triangulo e isosceles! (Dois lados iguais)");
+        printf("O triangulo e isosceles! (Dois lados iguais)\n");
     }else{
-        printf("O triangulo e escaleno! (Todos os lados possuem medidas diferentes)");
+        printf("O triangulo e escaleno! (Todos os lados possuem medidas diferentes)\n");
     }
 }
 
@@ -45,4 +45,5 @@ void questao19(void){
 
     //Saída de dados
     saida19(triangulo);
+    system("pause");
 }

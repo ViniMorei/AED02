@@ -19,7 +19,7 @@ void processamento02(float *n1,float *n2,float *n3,float *n4,float *saida){
 }
 
 void saida02(float saida){
-    printf("\nA media aritmetica e igual a %.1f",saida);
+    printf("\nA media aritmetica e igual a %.1f\n",saida);
 }
 
 void questao02(void){
@@ -34,4 +34,5 @@ void questao02(void){
 
     //Saída dos dados
     saida02(media);
+    system("pause");
 }

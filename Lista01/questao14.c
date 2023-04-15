@@ -17,9 +17,9 @@ void processamento14(int *numero, int *resto){
 
 void saida14(int numero, int resto){
     if (resto == 0){
-        printf("O numero %d e par!",numero);
+        printf("O numero %d e par!\n",numero);
     }else{
-        printf("O numero %d e impar!",numero);
+        printf("O numero %d e impar!\n",numero);
     }
 }
 
@@ -35,4 +35,5 @@ void questao14(void){
 
     //Saída de dados
     saida14(num,parimp);
+    system("pause");
 }

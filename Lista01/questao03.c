@@ -19,7 +19,8 @@ void processamento03(float *n1,float *n2,int *p1,int *p2,float *saida){
 }
 
 void saida03(float saida){
-    printf("\nA media ponderada e igual a %.1f",saida);
+    printf("\nA media ponderada e igual a %.1f\n",saida);
+    system("pause");
 }
 
 void questao03(void){

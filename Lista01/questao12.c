@@ -19,14 +19,22 @@ void processamento12(float *n1,float *n2,float *mediaritmetica){
 void saida12(float mediaritmetica){
     printf("A media do aluno foi %.1f\n",mediaritmetica);
     if (mediaritmetica>7.0){
-        printf("O aluno esta APROVADO!");
+        printf("O aluno esta APROVADO!\n");
     }else{
-        printf("O aluno esta REPROVADO!");
+        printf("O aluno esta REPROVADO!\n");
     }
 }
 void questao12(void){
+    //Declaração de variáveis
     float nota1,nota2,media;
+
+    //Entrada dos dados
     entrada12(&nota1,&nota2);
+
+    //Processamento
     processamento12(&nota1,&nota2,&media);
+
+    //Saída dos dados
     saida12(media);
+    system("pause");
 }

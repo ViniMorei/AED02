@@ -29,7 +29,7 @@ void processamento23(char tipo[1],float *percurso){
 }
 
 void saida23(float percurso){
-    printf("O consumo aproximado de combustivel sera de %.1fL",percurso);
+    printf("O consumo aproximado de combustivel sera de %.1fL\n",percurso);
 }
 
 void questao23(void){
@@ -45,4 +45,5 @@ void questao23(void){
 
     //Saída de dados
     saida23(trajeto);
+    system("pause");
 }

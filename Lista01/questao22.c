@@ -19,9 +19,9 @@ void processamento22(int *habitantes, int *vencedor, int *segundo){
 
 void saida22(int segundo){
     if (segundo == 1){
-        printf("\nNao havera segundo turno no seu municipio!");
+        printf("\nNao havera segundo turno no seu municipio!\n");
     }else{
-        printf("\nHavera segundo turno no seu municipio!");
+        printf("\nHavera segundo turno no seu municipio!\n");
     }
 }
 
@@ -39,4 +39,5 @@ void questao22(void){
 
     //Saída
     saida22(turno);
+    system("pause");
 }

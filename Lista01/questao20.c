@@ -75,6 +75,7 @@ void saida20(float n1,float n2,float n3, int maior,int menor){
     }else{
         printf("Numeros identicos!");
     }
+    printf("\n");
 }
 
 void questao20(void){
@@ -90,4 +91,5 @@ void questao20(void){
 
     //Saída de dados
     saida20(x,y,z,max,min);
+    system("pause");
 }

@@ -19,7 +19,7 @@ void processamento16(float *sal, int *desc){
 }
 
 void saida16(float sal, int desc){
-    printf("Seu salario liquido e igual a R$%.2f, com o desconto de %d%%",sal,desc);
+    printf("Seu salario liquido e igual a R$%.2f, com o desconto de %d%%\n",sal,desc);
 }
 
 void questao16(void){
@@ -35,4 +35,5 @@ void questao16(void){
 
     //Saída dos dados
     saida16(salario,desconto);
+    system("pause");
 }

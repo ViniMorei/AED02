@@ -14,7 +14,7 @@ void processamento08(float *quilometro, float *metros){
 }
 
 void saida08(float metros){
-  printf("A velocidade convertida é igual a %.2fm/s",metros);
+  printf("A velocidade convertida é igual a %.2fm/s\n",metros);
 }
 
 void questao08 (void){
@@ -29,4 +29,5 @@ void questao08 (void){
 
   //Saída
   saida08(ms);
+  system("pause");
 }

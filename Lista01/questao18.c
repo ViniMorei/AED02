@@ -24,11 +24,11 @@ void processamento18(float *p_und1,float *p_und2,float *p_media,int *p_aprovacao
 void saida18(float p_media, int p_aprovacao){
     printf("Sua media final foi %.1f, com esta nota voce ",p_media);
     if(p_aprovacao == 1){
-        printf("foi aprovado");
+        printf("foi aprovado\n");
     }else if (p_aprovacao == 2){
-        printf("esta reprovado");
+        printf("esta reprovado\n");
     }else{
-        printf("esta na prova final");
+        printf("esta na prova final\n");
     }
 }
 
@@ -45,4 +45,5 @@ void questao18(void){
 
     //Saída dos dados
     saida18(media,aprovacao);
+    system("pause");
 }

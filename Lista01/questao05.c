@@ -16,7 +16,7 @@ void processamento05(float *sb,float *sbr, int *qtdep){
     //printf("%.2f\n",*sbr);
 }
 void saida05(float sbr){
-    printf("\nSeu novo salario e igual a R$%.2f",sbr);
+    printf("\nSeu novo salario e igual a R$%.2f\n",sbr);
 }
 
 void questao05(void){
@@ -32,4 +32,5 @@ void questao05(void){
 
     //Saída de dados
     saida05(salBru);
+    system("pause");
 }

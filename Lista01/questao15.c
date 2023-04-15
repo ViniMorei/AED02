@@ -21,11 +21,11 @@ void processamento15(float *n1, float *n2, int *maior){
 
 void saida15(float n1, float n2, int maior){
     if (maior == 1){
-        printf("O maior numero e %.1f",n1);
+        printf("O maior numero e %.1f\n",n1);
     }else if (maior == 2){
-        printf("O maior numero e %.1f",n2);
+        printf("O maior numero e %.1f\n",n2);
     }else{
-        printf("Os numeros sao iguais");
+        printf("Os numeros sao iguais\n");
     }
 }
 
@@ -42,4 +42,5 @@ void questao15(void){
 
     //Saída dos dados
     saida15(x,y,comp);
+    system("pause");
 }

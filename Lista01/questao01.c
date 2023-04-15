@@ -18,7 +18,7 @@ void processamento01(int *n1,int *n2,int *n3,int *saida){
 }
 
 void saida01(int saida){
-    printf("\nA soma e igual a %d",saida);
+    printf("\nA soma e igual a %d\n",saida);
 }
 
 void questao01(void){
@@ -33,4 +33,5 @@ void questao01(void){
 
     //Saída dos dados
     saida01(soma);
+    system("pause");
 }

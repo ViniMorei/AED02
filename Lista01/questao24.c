@@ -14,7 +14,6 @@ void processamento24(int *compra, int *pagamento, int *n1, int *n10, int *n100){
     if (*compra < *pagamento){
         *pagamento = *pagamento - *compra;
         *n100 = *pagamento / 100;
-        printf("%d",*n100);
         *pagamento = *pagamento % 100;
         *n10 = *pagamento /10;
         *pagamento = *pagamento % 10;
@@ -41,5 +40,6 @@ void questao24(void){
     processamento24(&total,&pag,&notas1,&notas10,&notas100);
 
     //Saída
-    printf("O troco sera de %d notas de R$100, %d notas de R$10 e %d notas de R$1",notas100, notas10, notas1);
+    printf("O troco sera de %d notas de R$100, %d notas de R$10 e %d notas de R$1\n",notas100, notas10, notas1);
+    system("pause");
 }

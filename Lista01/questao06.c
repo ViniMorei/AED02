@@ -15,7 +15,7 @@ void processamento06(float *preco1, float *preco2, float *saida){
 }
 
 void saida06(float saida){
-    printf("O aumento do produto foi de %.2f%%",saida);
+    printf("O aumento do produto foi de %.2f%%\n",saida);
 }
 
 void questao06(void){
@@ -30,4 +30,5 @@ void questao06(void){
 
     //Saída dos dados
     saida06(aumento);
+    system("pause");
 }

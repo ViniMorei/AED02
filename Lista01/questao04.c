@@ -3,7 +3,7 @@
 #include "questao04.h"
 
 void entrada04(float *salario,float *porcentagem){
-    printf("Este programa ira calcular seu novo salario!\nInforme seu antigo salario: ");
+    printf("Este programa ira calcular seu novo salario!\nInforme seu antigo salario: R$");
     scanf("%f",salario);
     printf("Agora, informe a porcentagem de aumento: ");
     scanf("%f",porcentagem);
@@ -13,7 +13,7 @@ void processamento04(float *salario,float *porcentagem,float *novo){
     *novo = *salario + (*salario * *porcentagem/100.0);
 }
 void saida04(float novo){
-    printf("\nO seu novo salario e igual a R$%.2f",novo);
+    printf("\nO seu novo salario e igual a R$%.2f\n",novo);
 }
 
 void questao04(void){
@@ -28,4 +28,5 @@ void questao04(void){
 
     //Saída dos dados
     saida04(salNovo);
+    system("pause");
 }

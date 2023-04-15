@@ -8,7 +8,7 @@ void entrada11(float *numero){
 }
 void processamento11(float *numero){
     if (*numero >= 100 && *numero <=500){
-        printf("Este numero esta no intervalo entre 100 e 500");
+        printf("Este numero esta no intervalo entre 100 e 500\n");
     }else{
         printf("Este numero NAO esta no intervalo, tentar novamente? (1 para sim) ");
         scanf("%f",numero);
@@ -16,9 +16,10 @@ void processamento11(float *numero){
             system("cls");
             entrada11(numero);
         }else{
-            printf("Fim do programa");
+            printf("Fim do programa\n");
         }
     }
+    system("pause");
 }
 
 void questao11(void){

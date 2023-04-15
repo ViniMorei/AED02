@@ -90,7 +90,7 @@ void processamento21(float *n1, float *n2, float *n3, float *maior, float *meio,
 }
 
 void saida21(float maior, float meio, float menor){
-    printf("Maior: %.1f Meio: %.1f Menor: %.1f",maior,meio,menor);
+    printf("%.1f %.1f %.1f\n",menor,meio,maior);
 }
 
 void questao21(void){
@@ -105,4 +105,5 @@ void questao21(void){
 
     //Saída
     saida21(max,mid,min);
+    system("pause");
 }

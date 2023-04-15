@@ -19,7 +19,7 @@ void processamento17(float *preco,int *lucro){
 }
 
 void saida17(float preco, int lucro){
-    printf("O preco de venda deve ser de R$%.2f, tendo %d%% de lucro em relacao ao preco de compra",preco,lucro);
+    printf("O preco de venda deve ser de R$%.2f, tendo %d%% de lucro em relacao ao preco de compra\n",preco,lucro);
 }
 
 void questao17(void){
@@ -35,4 +35,5 @@ void questao17(void){
 
     //Saída de dados
     saida17(valor, porc);
+    system("pause");
 }

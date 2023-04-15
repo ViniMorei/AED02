@@ -15,7 +15,8 @@ void processamento09(float *numero){
         if (*numero == 1){
             entrada09(numero);
         }else{
-            printf("\nFim do programa");
+            printf("\nFim do programa\n");
+            system("pause");
         }
     }else{
         printf("Este numero nao e maior que 100! Deseja continuar? (Digite 1 para sim) ");
@@ -23,7 +24,8 @@ void processamento09(float *numero){
         if (*numero == 1){
             entrada09(numero);
         }else{
-            printf("\nFim do programa");
+            printf("\nFim do programa\n");
+            system("pause");
         }
     }
 }
